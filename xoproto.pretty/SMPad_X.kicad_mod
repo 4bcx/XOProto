@@ -1,0 +1,30 @@
+(footprint "SMPad_X" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "Surface mount pad; X shaped, top and bottom copper, no paste layer")
+  (attr smd board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f5936b92-043d-491e-9f1f-9d287bf65af0)
+  )
+  (fp_text value "SMPad_X" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2760a33c-9b1a-4001-81eb-d8609b57967d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 9366621a-18f0-4388-a50b-5f8b272705e4)
+  )
+  (pad "1" smd custom (at 0 0) (size 0.6 0.6) (layers "B.Cu" "B.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_line (start 0.35 0.35) (end -0.35 -0.35) (width 0.35))
+      (gr_line (start -0.35 0.35) (end 0.35 -0.35) (width 0.35))
+    ) (tstamp 2dd757ab-2475-4ff4-bf75-03de6c91be41))
+  (pad "1" smd custom (at 0 0) (size 0.6 0.6) (layers "F.Cu" "F.Mask")
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_line (start 0.35 -0.35) (end -0.35 0.35) (width 0.35))
+      (gr_line (start -0.35 -0.35) (end 0.35 0.35) (width 0.35))
+    ) (tstamp e6e8c27d-110c-4b07-aab6-5e322a83570b))
+)

@@ -1,0 +1,19 @@
+(footprint "THPad_0.8_1.2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (descr "Through hole pad; 0.8 mm drill, 1.2 mm pad size")
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp d3fd1da8-2f8e-4271-a93a-50840db7acbc)
+  )
+  (fp_text value "THPin_0.8_1.2" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 1c6c232e-df76-4479-97fe-a2b4cbe834ac)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp ab85b1b1-ec5c-443c-a660-5d99d857727c)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.8) (layers *.Cu *.Mask) (tstamp bec0f341-aeae-4559-a44e-730aed1ea18d))
+)
