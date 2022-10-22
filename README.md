@@ -1,5 +1,9 @@
 # xoproto
 
+![Open Source Hardware Certificate EG000001](./oshw_cert.png)
+
+![Open Source Hardware Facts](./oshw_facts.png)
+
 ## Description
 This is a proto board that doubles as a name tag or a conference badge. It is intended to be used to promote [Egypt Open Source Hardware](https://egoshw.com) community in events like [Techne Summit](https://alex.technesummit.com/2022) or university talks.
 
@@ -11,9 +15,15 @@ This is a proto board that doubles as a name tag or a conference badge. It is in
 ## Usage & example
 Just make something and write your name on it.
 
+## Pictures
+
+![XOProto top view](./top.png)
+
+![XOProto bottom view](./bottom.png)
+
 ## TODO
 - [ ] Add link to competition
-- [ ] Get OSHW certificate
+- [x] Get OSHW certificate
 - [ ] Build and document examples
 
 ## Credits
