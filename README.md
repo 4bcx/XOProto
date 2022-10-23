@@ -13,7 +13,7 @@ This is a proto board that doubles as a name tag or a conference badge. It is in
 ## Usage & example
 1. Write your name on the badge
 2. Make something cool on the proto area
-3. Scan the QR code or follow [this link](https://go to discord.gg/6JUaeHdTsK)
+3. Scan the QR code or follow [this link](https://discord.gg/6JUaeHdTsK)
 4. Post what you make and chat with other cool members
 
 ## Pictures
